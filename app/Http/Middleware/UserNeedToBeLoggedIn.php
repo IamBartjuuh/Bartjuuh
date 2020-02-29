@@ -5,7 +5,7 @@ namespace App\Http\Middleware;
 use Closure;
 use Auth;
 
-class UserNeedToBeLoggedIn
+class UserNeedToBeLoggedIn extends Middleware
 {
     /**
      * Handle an incoming request.
