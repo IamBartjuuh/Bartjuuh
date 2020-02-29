@@ -2,6 +2,7 @@
 
 namespace App\Http\Middleware;
 
+use Illuminate\Auth\Middleware\UserNeedToBeLoggedin as Middleware;
 use Closure;
 use Auth;
 
