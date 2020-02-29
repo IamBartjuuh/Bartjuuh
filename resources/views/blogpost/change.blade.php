@@ -5,7 +5,6 @@
     <div class="row justify-content-center">
         <div class="col-10">
             <div class="form-group row mb-0"><h4 class="offset-md-2 col-md-2 display-5 mt-2 text-md-left">Blog Post Veranderen.</h4>
-                {{$data->id}}
             <form action="/blogpost/delete/{{$data->id}}" style="display: inline; margin-right: 1em;" method="POST">
                 @csrf
                 <button type="button" class="btn btn-danger align-right btn-sm col align-self-end" data-toggle="modal" data-target="#Delete{{$data->id}}"><i class="fas fa-trash-alt"></i> Verwijder</button></div>
