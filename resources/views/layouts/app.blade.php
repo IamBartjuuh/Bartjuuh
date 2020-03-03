@@ -11,15 +11,26 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
     <!-- Styles -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/v4-shims.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
 <body>
+    <div id="app">
+        <nav class="navbar navbar-expand-md navbar-dark text-white nav-img" data-aos="fade-down" style="z-index: 1020;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img src="{{ asset('img/weblogo.png') }}" class="resize"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                {{-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <div id="app">
         <body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
             <nav class="navbar navbar-expand-md navbar-dark text-white nav-img" data-aos="fade-down" data-aos-once="true"  style="z-index: 1020;">
@@ -27,7 +38,7 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+                </button> --}}
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->

@@ -12,7 +12,7 @@
     @foreach ($data as $project)
     <div class="row nieuw padding mid justify-content-center">
 		<div class="col-md-8 col-lg-8 " data-aos="zoom-in">
-            <a href="/project/{{$project->id}}"><h2 class="display-4">{{$project->projectname}}</h2></a>
+            <a class="d-inline-flex" href="/project/{{$project->id}}"><h2 class="display-4">{{$project->projectname}}</h2></a>
 			<hr>
 			<div class="text-lgr">
                 {!!$project->beschrijving!!} 
