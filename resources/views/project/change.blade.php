@@ -18,7 +18,7 @@
                 <label for="beschrijving" class="offset-md-2 col-md-2 col-form-label text-md-left">Omschrijving:</label>
                 
                 <div class="col-md-6">
-                    <textarea name="beschrijving" id="article-ckeditor" class="form-control" id="exampleFormControlTextarea1" maxlength="500" rows="3" required>{{$data->beschrijving}}</textarea>
+                    <textarea name="beschrijving" id="article-ckeditor" class="form-control" maxlength="500" rows="3" required>{{$data->beschrijving}}</textarea>
                 </div>
             </div>
             <div class="form-group row">
