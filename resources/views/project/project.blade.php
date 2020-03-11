@@ -14,14 +14,14 @@
     </div>
     <div class="col-10 mx-auto" data-aos="fade-in">
         @foreach ($data['blogpost'] as $blog)
-        <div class="row mb-2">
+        <div class="row mb-2" data-aos="zoom-in">
             <div class="col-md-2 justify-content-end row pr-0">
                 <small class="mt-2 mr-2">{{$blog->created_at->format('d-m-Y H:i')}}</small>
                 <span class="badge badge-pill bg-light border" style="height: 3em; width: 3em;"> </span>
             </div>
             <div class="col-md-9">
                 <hr style="border-top: 1px solid #dee2e6 !important;">
-                <div data-aos="zoom-in">
+                <div>
                     {!!$blog->blogpost!!}
                 </div>
             </div>
