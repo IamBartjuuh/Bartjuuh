@@ -5,7 +5,7 @@
     <div class="row justify-content-end">
         <div class="col-md-8">
             <h3 class="d-flex justify-content-center display-3">{{$data->projectname}}</h3>
-            <p class="d-flex justify-content-center">{!!$data->beschrijving!!}</p>
+            <div class="d-flex justify-content-center">{!!$data->beschrijving!!}</div>
         </div>
         <div class="col-md-2">
             <small class="justify-content-end"><i>Gemaakt op: {{$data->created_at->format('d-m-Y H:i')}}</i></small>

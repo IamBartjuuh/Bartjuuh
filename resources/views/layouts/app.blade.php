@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link rel="icon" href="{{ asset('img/LOGO.png') }}" type="image/png" sizes="16x16">
 </head>
 <body>
     <div id="app">
