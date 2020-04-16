@@ -10,10 +10,10 @@
 		</div>
     </div>
     @foreach ($data as $project)
-    <div class="row nieuw padding mid justify-content-center">
+    <div class="row nieuw padding mid justify-content-center mt-2">
 		<div class="col-md-8 col-lg-8 " data-aos="zoom-in">
             <a class="d-inline-flex" href="/project/{{$project->id}}"><h2 class="display-4">{{$project->projectname}}</h2></a>
-			<hr>
+			<hr class="mt-0 mb-1">
 			<div class="text-lgr">
                 {!!$project->beschrijving!!} 
             </div>
